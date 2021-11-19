@@ -379,7 +379,7 @@ export interface PageBody {
 }
 
 export interface Page {
-  type?: 'Page'
+  type: 'Page'
   id: string
   refId: string
   previewId: string
@@ -391,13 +391,13 @@ export interface Page {
 }
 
 export interface Option {
-  type?: 'Option'
+  type: 'Option'
   key: string
   value: string
 }
 
 export interface Link {
-  type?: 'Link'
+  type: 'Link'
   template: string
   data: DataEntries
   meta: DataEntries
@@ -413,7 +413,7 @@ export interface Card {
 export interface Media {}
 
 export interface GCAPage {
-  type?: 'GCAPage'
+  type: 'GCAPage'
   id: string
   previewId: string
   name: string
@@ -423,7 +423,7 @@ export interface GCAPage {
 }
 
 export interface ProjectProperties {
-  type?: 'ProjectProperties'
+  type: 'ProjectProperties'
   id: string
   previewId: string
   name: string
@@ -472,7 +472,7 @@ export interface Dataset {
 }
 
 export interface Image {
-  type?: 'Image'
+  type: 'Image'
   id: string
   previewId: string
   meta: DataEntries
@@ -490,7 +490,7 @@ export interface Image {
 }
 
 export interface File {
-  type?: 'File'
+  type: 'File'
   id: string
   previewId: string
   meta: DataEntries
